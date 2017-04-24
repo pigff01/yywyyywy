@@ -1,0 +1,187 @@
+.payment-header{
+	width: 100%;
+	height: 4.5rem;
+	background-color: rgb(228,50,50);
+}
+.payment-header-left,.payment-header-right{
+	width: 50%;
+	height: 2rem;
+	margin-top: 1.3rem;
+
+}
+.payment-header-left{
+	background: url(../img/gold.png) no-repeat center center;
+	background-size: 15%;
+	background-position-x:1.8rem;
+	background-position-y:-.1rem;
+	
+}
+.payment-header-right{
+	background: url(../img/dollor.png) no-repeat center center;
+	background-size: 15%;
+	background-position-x:3rem;
+	background-position-x:2rem;
+	background-position-y:0rem;
+	
+}
+.payment-header-left-text{
+	width: 60%;
+	height: 100%;
+	text-align: left;
+}
+.payment-header-right-text{
+	width: 60%;
+	height: 100%;
+	text-align: left;
+}
+.payment-header-left-text p,.payment-header-right-text p{
+	color: white;
+	line-height: 1rem;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	padding-bottom: .2rem;
+}
+.payment-header-left-text small,.payment-header-right-text small{
+	color: white;
+	font-size: .8rem;
+
+}
+.payment-contaier{
+
+	width: 100%;
+	height: 26.7rem;
+	margin-top: .5rem;
+	background-color: white;
+	
+}
+.payment-contaier-head{
+	width: 100%;
+	height: 2.5rem;
+	border-bottom: 1px solid rgb(216,216,216);
+	box-sizing: border-box;
+}
+.payment-contaier-head-left,.payment-contaier-head-right{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.payment-contaier-head-left p,.payment-contaier-head-right p{
+	line-height: 2.5rem;
+	font-size: .9rem;
+}
+.payment-active{
+	border-bottom: 2px solid rgb(228,50,50);
+	color: rgb(228,50,50);
+	box-sizing: border-box;
+}
+.payment-contaier-body{
+	width: 100%;
+	height: 80%;
+	position: relative;
+}
+.payment-contaier-body ul{
+	width: 100%;
+	height: 100%;
+	
+}
+.payment-contaier-body ul>li{
+	width: 100%;
+	height: 8rem;
+	border-bottom: 1px solid rgb(216,216,216);
+	
+}
+.payment-contaier-body ul>li h4{
+	margin-top: .6rem;
+}
+.payment-contaier-body-left{
+	width: 65%;
+	height: 100%;
+	padding-left: .5rem;
+}
+.payment-contaier-body-right{
+	width: 30.8%;
+	height: 80%;
+	margin-top: .7rem;
+	border-left: 1px solid rgb(230,230,230);
+	
+}
+.payment-contaier-body-left h4{
+	font-weight: 400;
+	font-size: .9rem;
+}
+.login-header {
+	text-align: center;
+}
+.login-header p{
+	padding: 0;
+	margin: 0;
+}
+.payment-contaier-body-left p{
+	font-size: .9rem;
+	padding-top: .1rem;
+	word-break: break-word;
+}
+.payment-contaier-body-left small{
+	color: rgb(148,148,148);
+}
+.payment-contaier-body-right{
+	text-align: center;
+}
+.payment-contaier-body-right-text small{
+	color: rgb(148,148,148);
+	font-size: .9rem;
+}
+.payment-contaier-body-right-text{
+	position: relative;
+	bottom: -1rem;
+	height: 50%;
+	width: 100%;
+}.payment-contaier-body-right-text b{
+	font-size: 1.5rem;
+
+}
+.payment-contaier-body-right-text button{
+	margin-top: .5rem;
+	width: 70%;
+	height: 50%;
+	border: none;
+	background-color: rgb(172,172,172);
+	color: white;
+	border-radius: .3rem;
+}
+.payfor-active small{
+	font-size: 1.3rem;
+	color: black;
+}
+.payfor-active button{
+	background-color: rgb(228,50,50);
+}
+
+.new-create{
+	position: absolute;
+	left: 100%;
+	top:0;
+	margin-top: 0;
+	
+}
+.new-create ul li{
+	height: 2.5rem;
+}
+
+.new-creat-submitbtn{
+	width: 100%;
+	height: 2.5rem;
+	text-align: center;
+	margin-top:2.5rem;
+}
+.submit{
+	height: 2rem;
+	width: 80%;
+	border: none;
+	background-color: rgb(228,50,50);
+	border-radius: .2rem;
+	text-align: center;
+	font-size: 1rem;
+	letter-spacing: .2rem;
+	color: white;
+}

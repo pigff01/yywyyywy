@@ -1,0 +1,298 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	li {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	body {
+		background-color: #efefef;
+		font-family: "微软雅黑";
+	}
+	
+	.f-l {
+		float: left;
+	}
+	
+	.f-r {
+		float: right;
+	}
+	.mine-top {
+		height: 10rem;
+		width: 100%;
+		background-color: rgb(222, 38, 38);
+		text-align: center;
+		position: relative;
+	}
+	
+	.mine-icon-box {
+		width: 4rem;
+		height: 4rem;
+		margin: 0 auto 0;
+		padding-top: .7rem;
+	}
+	
+	.mine-icon-box img {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.mine-top p {
+		padding-top: .7rem;
+		color: white;
+	}
+	
+	.mine-top-mask {
+		position: absolute;
+		width: 100%;
+		height: 2.3rem;
+		bottom: 0;
+		left: 0;
+		background-color: rgb(166, 29, 29);
+		line-height: 2.3rem;
+		
+	}
+	
+	.mine-top-icons-change,.mine-top-icons-info,.mine-top-icons-mes{
+		display: inline-block;
+		height: 2.3rem;
+		width: 2.3rem;
+		line-height: 2.3rem;
+		position: relative;
+		top:.3rem;
+		background-size: 100%;
+		
+	}
+		.mine-top-icons-change{
+			background: url(../img/mine/change.png) no-repeat;
+		}
+	.mine-top-icons-info{
+		background: url(../img/mine/accontinfo.png) no-repeat;
+		
+	}.mine-top-icons-mes{
+		background: url(../img/mine/message.png) no-repeat;
+	}
+	.mine-top-mask ul{
+		width: 100%;
+		height: 100%;
+	}.mine-top-mask ul li{
+		height: 30%;
+		float: left;
+
+		line-height: 2.3rem;
+		position: relative;
+		text-align: center;
+	}.mine-top-mask ul li a{
+		position: relative;
+		color: white;
+		bottom: .8rem;
+		margin: 0 .4rem;
+	}
+	.mine-top-mask ul li::after{
+		content: "|";
+		color: white;
+		display: inline;
+		position: relative;
+		top:-.8rem
+		
+	}.mine-top-mask ul li:last-child::after{
+		display: none;
+	}
+	.cash-manner{
+		height: 8rem;
+		margin-top: .5rem;
+		background-color: white;
+	}
+	.cash-manner ul{
+		width: 100%;
+		height: 100%;}
+		.cash-manner ul li{
+			width: 50%;
+			height: 50%;
+			border: 1px solid #e6e6e6;
+			float: left;
+			box-sizing: border-box;
+			padding: .5rem;
+		}.cash-manner span{
+			float: left;
+			height: 2rem;
+			width: 2rem;
+			display: block;
+			background-repeat: no-repeat;
+			background-size: 94%;
+			margin-right: .7rem;
+			
+			
+		}
+		.cash-manner h4{
+			font-weight: 500;
+			font-size: .9rem;
+			}
+			.cash-manner small{
+				font-size:.7rem;
+				color: #959595;
+			}
+		.cash1{
+			background: url(../img/mine/cash.png);
+
+			}
+			.cash2{
+			background: url(../img/mine/cash2.png);
+				
+				}
+				.cash3{
+			background: url(../img/mine/cash3.png);
+					
+				}
+				.cash4{
+			background: url(../img/mine/cash4.png);
+					
+					}
+					.mine-input-group01,.mine-input-group02,.mine-input-group03,.member-input-group{
+						width: 100%;
+						height: 12.5rem;
+						margin-top: .5rem;
+						background-color: white;
+						}
+						.mine-input-group02{
+						height: 10rem;
+							
+						}
+						.mine-input-group03{
+							height: 5rem;
+						}
+						.member-input-group ul,.mine-input-group01  ul,.mine-input-group02  ul,.mine-input-group03  ul{
+							width: 100%;
+							height: 100%;
+						}
+						.member-input-group ul li,.mine-input-group01 ul li ,.mine-input-group02 ul li,.mine-input-group03 ul li{
+							width: 100%;
+							height: 2.5rem;
+							box-sizing: border-box;
+							border-bottom: 1px solid #e6e6e6;
+							padding-left: .5rem;
+							padding-top: .5rem;
+							font-size:.8rem;
+							line-height: 1.5rem;
+							}
+							.mine-input-group02 ul li:last-child,.mine-input-group01 ul li:last-child{
+								border: none;
+								}
+								 .member-input-group ul li span,.mine-input-group01 ul li span,.mine-input-group02 ul li span,.mine-input-group03 ul li span{
+									height: 1.5rem;
+									width: 1.5rem;
+									display: block;
+									float: left;
+									margin-right: .6rem;
+
+
+									background-size: 100%;
+									
+									}
+									.input01{
+									background: url(../img/mine/input01.png) no-repeat;
+										
+									}
+									.input02{
+										background: url(../img/mine/input02.png) no-repeat;
+									}
+									.input03{
+										background: url(../img/mine/input03.png) no-repeat;
+										
+									}.input04{
+										background: url(../img/mine/input04.png) no-repeat;
+										
+									}.input05{
+										background: url(../img/mine/input05.png) no-repeat;
+										
+									}
+									.input06{
+										background: url(../img/mine/input06.png) no-repeat;
+										
+									}.input07{
+										background: url(../img/mine/input07.png) no-repeat;
+										
+									}.input08{
+										background: url(../img/mine/input08.png) no-repeat;
+										
+									}.input09{
+										background: url(../img/mine/input09.png) no-repeat;
+										
+									}.input10{
+										background: url(../img/mine/input10.png) no-repeat;
+										
+									}.input11{
+										background: url(../img/mine/input11.png) no-repeat;
+										
+									}
+									.arrow-right{
+										float: right;
+										display: block;
+										height: 1.5rem;
+										width: .7rem;
+										background: url(../img/mine/arrow-right.png) no-repeat;
+										position: relative;top:-1.1rem;right: .2rem;
+										background-size: 100%;
+									}
+	html{font-size:16px;font-family: helvetica,"microsoft yahei";}
+			@media only screen and (min-width:320px){html {font-size: 17.2px!important;}
+			.mine-top-mask ul li a{
+				font-size:12px
+			}
+			.mine-top-icons-change,.mine-top-icons-info,.mine-top-icons-mes{
+				left: .5rem;
+				top:0.3rem
+			}
+			}
+			@media only screen and (min-width:360px){html {font-size: 19.2px!important;}
+			.mine-top-icons-change,.mine-top-icons-info,.mine-top-icons-mes{
+				left: .7rem;
+				top:0.5rem
+			}.mine-top-mask ul li a{
+				font-size:14px
+			}.mine-top-mask ul li a{
+		margin: 0 .4rem;
+	}
+			}
+			@media only screen and (min-width:375px){html {font-size: 20px!important;}
+			
+			.mine-top-mask ul li a{
+		margin: 0 .48rem;
+	}
+			}
+			@media only screen and (min-width:400px){html {font-size:21.33px!important;}
+			
+			}
+			@media only screen and (min-width:414px){html {font-size:22.08px!important;}
+			
+			}
+			@media only screen and (min-width:480px){html {font-size:25.6px!important;}
+			
+			}
+			@media only screen and (min-width:640px){html {font-size: 34.4px!important;}
+			.mine-top-mask ul li a{
+				font-size:34px
+			}
+			.mine-top-icons-change,.mine-top-icons-info,.mine-top-icons-mes{
+		background-size: 53%;
+				left: 1rem;
+			
+			}.mine-top-mask ul li a{
+		margin: 0 .48rem;
+	}
+			}
+			@media only screen and (min-width:1000px){html {font-size: 34.4px!important;}
+			.mine-top-mask ul li a{
+		margin: 0 1.6rem;
+	}.mine-top-icons-change,.mine-top-icons-info,.mine-top-icons-mes{
+				left: 1.8rem;
+				top:0.5rem
+			}

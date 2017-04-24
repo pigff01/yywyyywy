@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/二维码.css" />
+		<style>
+		    .icon-a img,.icon-b img,.icon-c img{
+		    	width: 2rem;
+		    	height: 2rem;
+		    }
+		    .icon-a,.icon-b,.icon-c{
+		    	display: inline-block;
+		    	line-height: 3rem;
+		    		padding-top: .5rem;
+		    }
+		    .words{
+				display: inline-block;
+				line-height: 2.8rem;
+				font-size: 1rem;
+			}
+			.turns{
+				width: 95%;
+				height: 3rem;
+				border-bottom: 1px solid gray;
+				z-index: 22;
+			}
+			.location{
+				position: relative;
+			}
+			.locations{
+				position: absolute;
+				top: .6rem;
+				left: 3.2rem;
+				/*padding-left: .7rem;*/
+			}
+			.circle{
+				position: absolute;
+				right: 1.5rem;
+				top: 1.3rem;
+			}
+			input[type=radio] {
+			    display: inline-block;
+			    vertical-align: middle;
+			    width: 1rem;
+			    height: 1rem;
+			    -webkit-appearance: none;
+			    background-color: transparent;
+			    border: 0;
+			    outline: 0 !important;
+			    line-height: 1rem;
+			    color: #d8d8d8;
+			}
+			input[type=radio]:after {
+			    content: "";
+			    display:block;
+			    width: 1rem;
+			    height: 1rem;
+			    border-radius: 50%;
+			  text-align: center;
+			  line-height: .6rem;
+			  font-size: .8rem;
+			  color: #fff;
+			    border: 3px solid #ddd;
+			    background-color: #fff;
+			    box-sizing:border-box;
+			}
+			input[type=radio]:checked:after {
+			    content: "L";
+			    transform:matrix(-0.766044,-0.642788,-0.642788,0.766044,0,0);
+			    -webkit-transform:matrix(-0.766044,-0.642788,-0.642788,0.766044,0,0);
+			    border-color: #099414;
+			    background-color: #099414;
+			}
+            .alert{
+            	margin-top: 1rem;
+            }
+            .money{
+            	background-color: #FFFFFF;
+            }
+            .money-one{
+            	width: 95%;
+            	float: right;
+            	border-bottom: 1px solid #e6e6e6;
+            }
+            .pd{
+            	padding: .5rem 0 1rem 0;
+            }
+            .money-two{
+            	margin-left: 0.5rem;
+            	padding: .5rem 0;
+            	font-size: 1.1rem;
+            }
+            .small-right{
+            	float: right;
+            	padding-right: .5rem;
+            	color: cornflowerblue;
+            	
+            }
+            .red-circle{
+            	width: 1rem;
+            	height: 1rem;
+            	background-image: url(img/app/redcircle.png);
+            	display: inline-block;
+            	background-size: cover;
+            	margin-right: .5rem;
+            }
+            .red-words{
+            	color: red;
+            	font-size: 1rem;
+            	margin:1rem .5rem;
+            	
+            }
+            .deposit{
+            	margin-left: 1.5rem;
+            }
+            .garybutton button{
+            	width: 90%;
+				height: 3.5rem;
+				background-color:#acacac;
+				font-size: 1.5rem;
+				color: #FFFFFF;
+				text-align: center;
+				border-radius: 0.5rem;
+				margin: 3rem 1.2rem 6rem 1rem;
+            }
+            .pay{
+            	width: 95%;
+            	float: right;
+            	
+            }
+            .name-pay{
+            	border-bottom: 1px solid gray;
+            }
+            .bd{
+            	border:none;
+            }
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="qr-code">
+				<a href="index.html" class="return"><span>返回</span></a>
+				<h1>提现</h1>
+			</div>
+		</header>
+		<section>
+			<div class="information">
+				<div class="section-top">
+					<div class="name name-pay">
+						<span class="words pay">选择提现方式</span>
+					</div>
+			        <form>		
+					<div class="name location">
+						<div class="turns f-r">
+						<span class="icon-a"><img src="img/app/wallet.png"/></span>
+						<span class="words locations">现金</span>
+						<!--<span class="green-circle"></span> -->
+						<input type="radio" name="cash" class="circle"/>
+						</div>
+					</div>
+					<div class="name location">
+						<div class="turns f-r">
+						<span class="icon-b"><img src="img/app/alipay.png"/></span>
+						<span class="words locations">支付宝</span>
+						<!--<span class="circle"></span>-->
+						<input type="radio" name="cash" class="circle"/>
+						</div>
+					</div>
+					<div class="name name-pay location">
+						<div class="turns bd f-r">
+						<span class="icon-c"><img src="img/app/wechat.png"/></span>
+						<span class="words locations">微信</span>
+						<!--<span class="circle"></span>-->
+						<input type="radio" name="cash" class="circle"/>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+			<div class="alert">
+				<div class="money">
+					<div class="money-one">
+						<p class="words">提示金额</p>
+					    <p class="pd">￥456.00</p>
+					</div>
+					
+					<div class="money-two">
+					<small >可用余额：434.00</small>
+					<small class="small-right">全部提现</small>
+				    </div>
+				</div>
+				<div class="red-words">
+					<p><span class="red-circle"></span>当前体现余额已超出账户余额</p>
+					<p class="deposit">现金提现为100元的整数倍</p>
+				</div>
+				<div class="garybutton">
+					<button type="button">下一步</button>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

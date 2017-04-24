@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/二维码.css" />
+		<style>
+			.recharge{
+				padding-top: 5rem;
+				padding-bottom: 1rem;
+			}
+			.rechargemoney{
+				background-color: #FFFFFF;
+				font-size: 1rem;
+				padding-left: .5rem;
+			}
+			.rmb{
+				padding: .8rem 0 1.4rem 0;
+				font-size: 1.5rem;
+			}
+			.chioce{
+				background-color: #FFFFFF;
+				font-size: 1rem;
+			}
+			.mode{
+				padding: .5rem;
+				border-bottom: 1px solid #e6e6e6;
+			}
+			.icon-b img,.icon-c img{
+		    	width: 1.5rem;
+		    	height: 1.5rem;
+		    }
+		    .icon-b,.icon-c{
+		    	display: inline-block;
+		    	line-height: 2rem;
+		      padding-left: .5rem;
+		      padding-top: .5rem;
+		    }
+		    .words{
+				display: inline-block;
+				/*line-height: 3rem;*/
+				font-size: 1rem;
+			}
+			.location{
+				position: relative;
+			}
+			.locations{
+				position: absolute;
+				top: .6rem;
+				padding-left: .7rem;
+			}
+			.circle{
+				position: absolute;
+				right: 1.5rem;
+				top: .6rem;
+			}
+			input[type=radio] {
+			    display: inline-block;
+			    vertical-align: middle;
+			    width: 1rem;
+			    height: 1rem;
+			    -webkit-appearance: none;
+			    background-color: transparent;
+			    border: 0;
+			    outline: 0 !important;
+			    line-height: 1rem;
+			    color: #d8d8d8;
+			}
+			input[type=radio]:after {
+			    content: "";
+			    display:block;
+			    width: 1rem;
+			    height: 1rem;
+			    border-radius: 50%;
+			  text-align: center;
+			  line-height: .6rem;
+			  font-size: .8rem;
+			  color: #fff;
+			    border: 3px solid #ddd;
+			    background-color: #fff;
+			    box-sizing:border-box;
+			}
+			input[type=radio]:checked:after {
+			    content: "L";
+			    transform:matrix(-0.766044,-0.642788,-0.642788,0.766044,0,0);
+			    -webkit-transform:matrix(-0.766044,-0.642788,-0.642788,0.766044,0,0);
+			    border-color: #099414;
+			    background-color: #099414;
+			}
+			.new-name{
+				border-bottom: 1px solid #E6E6E6;
+				margin-left: .5rem;
+			}
+			.alipay{
+				padding-left: .5rem;
+				border-bottom: 1px solid #e6e6e6;
+			}
+			.section-bottom button{
+				width: 90%;
+				height: 3rem;
+				background-color:#e43232;
+				font-size: 1.5rem;
+				color: #FFFFFF;
+				text-align: center;
+				border-radius: 0.5rem;
+				margin: 3rem 1.2rem 6rem 1rem;
+				outline: none;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="qr-code">
+				<a href="index.html" class="return"><span>返回</span></a>
+				<h1>充值</h1>
+			</div>
+		</header>
+		<section>
+			<div class="recharge">
+				<div class="rechargemoney">
+					<p>充值金额</p>
+					<p class="rmb">￥456.00</p>
+				</div>
+			</div>
+			<div class="chioce">
+				<div class="mode">
+					<p>选择充值方式</p>
+				</div>
+				<div class="new-name location">
+					<span class="icon-b"><img src="img/app/alipay.png"/></span>
+					<span class="words locations">支付宝</span>
+					<input type="radio" name="choice" class="circle"/>
+				</div>
+				<div class="alipay location">
+					<span class="icon-c"><img src="img/app/wechat.png"/></span>
+					<span class="words locations">微信</span>
+					<input type="radio" name="choice" class="circle"/>
+				</div>
+			</div>
+			<div class="section-bottom">
+				<button type="button change">确认提交</button>
+			</div>
+		</section>
+	</body>
+</html>

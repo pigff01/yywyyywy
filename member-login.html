@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<meta http-eqiv="X-UA-Compatible" content="IE=edge chrome=1">
+			<link rel="stylesheet" type="text/css" href="css/login.css"/>
+
+			<link rel="stylesheet" type="text/css" href="css/mine.css"/>
+			<link rel="stylesheet" type="text/css" href="css/member-login.css"/>
+			
+			
+	</head>
+	<body>
+			<div class="member-login-header">
+<p>会员注册</p>
+			
+			<div class="f-l member-login-header-left">
+			<a href="index.html">	<span class="login-arrow-left"></span>
+				<p>返回</p></a>
+			</div>
+
+			</div>
+			
+			<div class="member-input-group">
+			<ul>
+				<li><span class="member-input01"></span><p>姓名</p><input type="" name="" id="" value="" placeholder="输入中文名"  class="f-r member-login-input01"/></li>
+				<li><span class="member-input02"></span><p>手机号</p><input type="" name="" id="" value="" placeholder="输入正确的手机号"  class="f-r member-login-input02"/></li>
+				<li><span class="member-input03"></span><p>验证码</p><input type="" name="" id="" value="" placeholder="输入右图中的字符"  class="f-r member-login-input03"/></li>
+				<li><span class="member-input04"></span><p>身份证号</p><input type="" name="" id="" value="" placeholder="初始密码为身份证后六位"  class="f-r member-login-input04"/></li>
+				<li><span class="member-input05"></span><p>地域</p><input type="" name="" id="" value="" placeholder="澧县"  class="f-r member-login-input05"/></li>
+				<li><span class="member-input06"></span><p>推荐人电话</p><input type="" name="" id="" value="" placeholder="推荐人手机号，无推荐人不填写"  class="f-r member-login-input06"/></li>
+				<li><span class="member-input07"></span><p>注册方式</p><div class="radio">
+					<label for="credit" class="credit-login">
+						<input type="radio" name="member-login" id="credit" value="" height="1rem" width="1rem" checked class="member-login-input07" />&nbsp;<small>信用注册</small>
+					</label>&nbsp;&nbsp;
+					<label for="pay" class="payfor-login"><input type="radio" name="member-login" id="pay" value="" height="1rem" width="1rem"  class="member-login-input07" />&nbsp;<small>付费注册</small></label>
+
+			</div>
+
+			
+		
+					
+		</div>
+					<div style="clear: both;"></div>
+		
+			<div class="member-input-group02 new-create">
+			<ul> 	
+				<li><div class="f-l" style="width: 50%;"><span class="member-input08"></span><p>支付宝</p></div><div class="f-r radio-pay">	<label for="pay"><input type="radio" name="member-pay" id="pay" value="" height="1rem" width="1rem"  class="member-login-input07" />&nbsp;</label></div></li>
+				<li><div class="f-l" style="width: 50%;"><span class="member-input09"></span><p>微信</p></div><div class="f-r radio-pay">	<label for="pay"><input type="radio" name="member-pay" id="pay" value="" height="1rem" width="1rem"  class="member-login-input07" />&nbsp;</label></div></li>
+			</ul>
+			</div>
+		</div>
+		<div class="member-login-btn">
+			<input type="radio" checked=""  class="f-l"/><p>我已阅读并同意<span>《会员使用协议》</span></p>
+	
+		</div>
+		<div class="member-login-btn01">
+					<a href=""><button class="login-btn">
+			注册
+		</button></a>
+		</div>
+
+		
+		
+		
+				
+		
+		
+		
+	</body>
+	<script src="js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('.payfor-login').click(function(){
+			$(".member-input-group02").show()
+		})
+			$('.credit-login').click(function(){
+			$(".member-input-group02").hide()
+		})
+	</script>
+</html>

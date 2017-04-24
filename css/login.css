@@ -1,0 +1,199 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	li {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	body {
+		font-family: "微软雅黑";
+		background-color: #efefef;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.f-l {
+		float: left;
+	}
+	
+	.f-r {
+		float: right;
+	}
+	.login-header,.member-login-header{
+		height: 3.5rem;
+		width: 100%;
+		background-color: #e43232;
+	}
+		.login-header-left{
+			padding-left: .4rem;
+		}
+	.login-header-left,.login-header-right{
+		width: 25%;
+	}
+	.login-header-left{
+		width: 28%;
+	}
+	.login-header-right{
+		text-align: center;
+	}
+	.login-header-mid {
+		width: 40%;
+		margin: 0 auto;
+	}
+	.login-arrow-left{
+		height: 2rem;
+		width: 1.5rem;
+		display: block;
+		background: url(../img/login/arrow-left.png) no-repeat;
+		background-size: 50%;
+		margin-top: 1.15rem;
+		float: left;
+	}
+	.login-header-left p,.login-header-right p{
+		line-height: 3.5rem;
+		font-size: 1rem;
+		color: white;
+	}
+.login-header-mid{
+	height: 1.5rem;
+	width: 40%;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 1rem;
+	border-radius: .3rem;
+	border: 1px solid white;
+}
+.buyer{
+	width: 50%;
+	height: 100%;
+	border-radius: .3rem 0 0 .3rem ;
+	
+	background-color:white;
+	float: left;
+	text-align: center;
+}
+.buyer p{
+	line-height: 1.5rem;
+	font-size: .8rem;
+	color:#e43232 ;
+}
+.seller{
+	width: 50%;
+	height: 100%;
+		background-color: #e43232;
+		float: right;
+	border-radius:0 .3rem .3rem 0;
+	text-align: center;
+	
+}
+.seller p{
+	line-height: 1.5rem;
+	font-size: .8rem;
+	color: white;
+}
+.login-buyer-content {
+	width: 100%;
+	height: 5rem;
+	margin-top: .5rem;
+	background-color: white;
+	border-top:.1rem solid #d8d8d8;
+	border-bottom:.1rem solid #d8d8d8;
+	box-sizing: border-box;
+	position: relative;
+}
+.user, .pwd{
+	width: 100%;
+	height: 2.5rem;
+	border: none;
+outline: none;
+
+}.user{
+	border-bottom:.1rem solid #d8d8d8;
+	background: url(../img/login/phone.png) no-repeat 1rem .5rem ;
+background-size: 4.1%;	
+padding-left: 2.8rem;
+font-size: .8rem;
+background-color: white;
+
+}
+.pwd{
+	background: url(../img/login/key.png) no-repeat 1rem .5rem ;
+	background-size: 3.6%;	
+padding-left: 2.8rem;
+background-color: white;
+font-size: .8rem;
+}
+.login-btnbox{
+	width: 98%;
+	height: 2.3rem;
+	margin: 3rem  0 0 .5rem;
+}
+.login-btn{
+	width: 96%;
+	background-color: #e43232;
+	height: 2rem;
+	border:  none;
+	font-size: .9rem;
+	letter-spacing: .5rem;
+	text-align: center;
+	color: white;
+	border-radius: .2rem;
+}
+.find-pwd{
+	float: right;
+	font-size: .7rem;
+	padding-right: .8rem;
+	padding-top: .4rem;
+	color:#e43232;
+}
+.login-seller-content{
+	position: absolute;
+	top:4rem;
+	background-color: #efefef;
+	margin-left: 100%;
+}
+	html{font-size:16px;font-family: helvetica,"microsoft yahei";}
+			@media only screen and (min-width:320px){html {font-size: 17.2px!important;}
+			.login-arrow-left{
+				margin-top: 1.1rem;
+			}
+			}
+			@media only screen and (min-width:360px){html {font-size: 19.2px!important;}
+				.login-arrow-left{
+				margin-top: 1.18rem;
+			}
+			}
+			@media only screen and (min-width:375px){html {font-size: 20px!important;}
+			.login-arrow-left{
+				margin-top: 1.21rem;
+			}
+			}
+			@media only screen and (min-width:400px){html {font-size:21.33px!important;}
+			.login-arrow-left{
+				margin-top: 1.18rem;
+			}
+			}
+			@media only screen and (min-width:414px){html {font-size:22.08px!important;}}
+			@media only screen and (min-width:480px){html {font-size:25.6px!important;}}
+			@media only screen and (min-width:640px){html {font-size: 34.4px!important;}
+			.login-arrow-left{
+				margin-top: 1.2rem;
+			}
+			}
+			@media only screen and (min-width:1000px){html {font-size: 44.1px!important;}
+		.user{
+			background-size: 3%;
+		}
+		.pwd{
+			background-size: 2.6%;	
+		}
+			}
